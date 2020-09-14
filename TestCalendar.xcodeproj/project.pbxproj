@@ -9,11 +9,21 @@
 /* Begin PBXBuildFile section */
 		1F36DC2B250CE24B0078BC4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36DC2A250CE24B0078BC4A /* AppDelegate.swift */; };
 		1F36DC2D250CE24B0078BC4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36DC2C250CE24B0078BC4A /* SceneDelegate.swift */; };
-		1F36DC2F250CE24B0078BC4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36DC2E250CE24B0078BC4A /* ViewController.swift */; };
-		1F36DC32250CE24B0078BC4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F36DC30250CE24B0078BC4A /* Main.storyboard */; };
 		1F36DC34250CE24E0078BC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F36DC33250CE24E0078BC4A /* Assets.xcassets */; };
 		1F36DC37250CE24E0078BC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F36DC35250CE24E0078BC4A /* LaunchScreen.storyboard */; };
 		1F36DC42250CE24E0078BC4A /* TestCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36DC41250CE24E0078BC4A /* TestCalendarTests.swift */; };
+		1F36DC50250CE3370078BC4A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36DC4F250CE3370078BC4A /* HomeViewController.swift */; };
+		1F36DC52250CE3AC0078BC4A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F36DC51250CE3AC0078BC4A /* BaseViewController.swift */; };
+		1F6718FB250CE5F200F4832C /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6718FA250CE5F200F4832C /* UIViewExtension.swift */; };
+		1F6718FD250CE63900F4832C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6718FC250CE63900F4832C /* UIColorExtension.swift */; };
+		1F671900250CEB2000F4832C /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6718FF250CEB2000F4832C /* MonthView.swift */; };
+		1F671903250CEC1800F4832C /* PickDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F671902250CEC1800F4832C /* PickDateViewController.swift */; };
+		1F671906250CF50A00F4832C /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F671905250CF50A00F4832C /* Day.swift */; };
+		1F671908250CF96A00F4832C /* MonthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F671907250CF96A00F4832C /* MonthData.swift */; };
+		1F67190B250CFBBA00F4832C /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67190A250CFBBA00F4832C /* Enums.swift */; };
+		1F67190D250D001300F4832C /* MonthDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67190C250D001300F4832C /* MonthDataManager.swift */; };
+		1F67190F250D09C300F4832C /* MonthCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F67190E250D09C300F4832C /* MonthCollectionViewCell.swift */; };
+		1F671911250E548F00F4832C /* DateInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F671910250E548F00F4832C /* DateInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +40,24 @@
 		1F36DC27250CE24B0078BC4A /* TestCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F36DC2A250CE24B0078BC4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1F36DC2C250CE24B0078BC4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1F36DC2E250CE24B0078BC4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1F36DC31250CE24B0078BC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F36DC33250CE24E0078BC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F36DC36250CE24E0078BC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F36DC38250CE24E0078BC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F36DC3D250CE24E0078BC4A /* TestCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F36DC41250CE24E0078BC4A /* TestCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCalendarTests.swift; sourceTree = "<group>"; };
 		1F36DC43250CE24E0078BC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F36DC4F250CE3370078BC4A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1F36DC51250CE3AC0078BC4A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1F6718FA250CE5F200F4832C /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		1F6718FC250CE63900F4832C /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		1F6718FF250CEB2000F4832C /* MonthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		1F671902250CEC1800F4832C /* PickDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickDateViewController.swift; sourceTree = "<group>"; };
+		1F671905250CF50A00F4832C /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
+		1F671907250CF96A00F4832C /* MonthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthData.swift; sourceTree = "<group>"; };
+		1F67190A250CFBBA00F4832C /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		1F67190C250D001300F4832C /* MonthDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthDataManager.swift; sourceTree = "<group>"; };
+		1F67190E250D09C300F4832C /* MonthCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCollectionViewCell.swift; sourceTree = "<group>"; };
+		1F671910250E548F00F4832C /* DateInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +99,14 @@
 		1F36DC29250CE24B0078BC4A /* TestCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				1F671909250CFBB200F4832C /* Enum */,
+				1F671904250CF2B900F4832C /* Models */,
+				1F6718FE250CEB1200F4832C /* View */,
+				1F6718F9250CE5D300F4832C /* Extensions */,
+				1F36DC4E250CE2E80078BC4A /* Scenes */,
 				1F36DC2A250CE24B0078BC4A /* AppDelegate.swift */,
 				1F36DC2C250CE24B0078BC4A /* SceneDelegate.swift */,
-				1F36DC2E250CE24B0078BC4A /* ViewController.swift */,
-				1F36DC30250CE24B0078BC4A /* Main.storyboard */,
+				1F67190C250D001300F4832C /* MonthDataManager.swift */,
 				1F36DC33250CE24E0078BC4A /* Assets.xcassets */,
 				1F36DC35250CE24E0078BC4A /* LaunchScreen.storyboard */,
 				1F36DC38250CE24E0078BC4A /* Info.plist */,
@@ -97,6 +121,68 @@
 				1F36DC43250CE24E0078BC4A /* Info.plist */,
 			);
 			path = TestCalendarTests;
+			sourceTree = "<group>";
+		};
+		1F36DC4E250CE2E80078BC4A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				1F671901250CEC0800F4832C /* PickDate */,
+				1F36DC51250CE3AC0078BC4A /* BaseViewController.swift */,
+				1F36DC53250CE3CC0078BC4A /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1F36DC53250CE3CC0078BC4A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1F36DC4F250CE3370078BC4A /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1F6718F9250CE5D300F4832C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1F6718FA250CE5F200F4832C /* UIViewExtension.swift */,
+				1F6718FC250CE63900F4832C /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1F6718FE250CEB1200F4832C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1F6718FF250CEB2000F4832C /* MonthView.swift */,
+				1F67190E250D09C300F4832C /* MonthCollectionViewCell.swift */,
+				1F671910250E548F00F4832C /* DateInfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F671901250CEC0800F4832C /* PickDate */ = {
+			isa = PBXGroup;
+			children = (
+				1F671902250CEC1800F4832C /* PickDateViewController.swift */,
+			);
+			path = PickDate;
+			sourceTree = "<group>";
+		};
+		1F671904250CF2B900F4832C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1F671905250CF50A00F4832C /* Day.swift */,
+				1F671907250CF96A00F4832C /* MonthData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1F671909250CFBB200F4832C /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				1F67190A250CFBBA00F4832C /* Enums.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,7 +268,6 @@
 			files = (
 				1F36DC37250CE24E0078BC4A /* LaunchScreen.storyboard in Resources */,
 				1F36DC34250CE24E0078BC4A /* Assets.xcassets in Resources */,
-				1F36DC32250CE24B0078BC4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +285,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F36DC2F250CE24B0078BC4A /* ViewController.swift in Sources */,
+				1F6718FB250CE5F200F4832C /* UIViewExtension.swift in Sources */,
+				1F6718FD250CE63900F4832C /* UIColorExtension.swift in Sources */,
+				1F671911250E548F00F4832C /* DateInfoView.swift in Sources */,
+				1F36DC52250CE3AC0078BC4A /* BaseViewController.swift in Sources */,
+				1F671903250CEC1800F4832C /* PickDateViewController.swift in Sources */,
+				1F67190D250D001300F4832C /* MonthDataManager.swift in Sources */,
+				1F67190F250D09C300F4832C /* MonthCollectionViewCell.swift in Sources */,
+				1F671908250CF96A00F4832C /* MonthData.swift in Sources */,
 				1F36DC2B250CE24B0078BC4A /* AppDelegate.swift in Sources */,
+				1F671906250CF50A00F4832C /* Day.swift in Sources */,
 				1F36DC2D250CE24B0078BC4A /* SceneDelegate.swift in Sources */,
+				1F36DC50250CE3370078BC4A /* HomeViewController.swift in Sources */,
+				1F671900250CEB2000F4832C /* MonthView.swift in Sources */,
+				1F67190B250CFBBA00F4832C /* Enums.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +321,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1F36DC30250CE24B0078BC4A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F36DC31250CE24B0078BC4A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1F36DC35250CE24E0078BC4A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -372,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ugureratalar.TestCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -390,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ugureratalar.TestCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
